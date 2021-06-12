@@ -78,7 +78,6 @@ section{
     list-style: none;
     font-size: 15px;
     padding: 0;
-    margin-bottom: 4em;
     text-shadow: 0 1px 0 rgba(255,255,255,.5);
 }
 
@@ -126,3 +125,28 @@ section{
     left: -.5em;
     border-left-color: #f4ae21;             
 }
+
+#contact{
+    margin-bottom: 60px;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#form input, #form textarea{
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-bottom: 5px;
+    border: 2px solid #f4ae21;
+}
+
+input#submit {
+    background-color: #f4ae21;
+    width: 110%;
+}
+
