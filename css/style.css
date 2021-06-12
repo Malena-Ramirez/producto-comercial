@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;600;700&display=swap");
 
 body {
     margin: 0;
-    font-family: 'Cabin', sans-serif;
+    font-family: "Cabin", sans-serif;
 }
 
 #nav-bar {
@@ -30,26 +30,27 @@ body {
     font-size: 0.75rem;
 }
 
-.nav-link>a {
+.nav-link > a {
     text-decoration: none;
     color: #545454;
 }
 
-main{
+main {
     width: 80%;
     margin: 0 auto;
 }
 
-main > h1{
+main > h1 {
     font-size: 1.5rem;
     text-align: center;
+    font-weight: 700;
 }
 
-main > p{
+main > p {
     text-align: justify;
 }
 
-main > figure{
+main > figure {
     width: 100%;
     margin: 0 auto;
     display: flex;
@@ -57,12 +58,14 @@ main > figure{
     align-items: center;
 }
 
-main > figure > img{
-    /* width: 100%; */
-}
-
 iframe#video {
     width: 100%;
     height: auto;
     margin: 0 auto;
+}
+
+h2{
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
 }
