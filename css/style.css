@@ -155,6 +155,8 @@ section {
     margin-bottom: 5px;
     border: 2px solid #f4ae21;
     max-width: 530px;
+    font-family: "Cabin", sans-serif;
+    font-size: 0.875rem;
 }
 
 input#submit {
